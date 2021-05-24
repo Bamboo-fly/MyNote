@@ -1,0 +1,8 @@
+<litepal>
+    <dbname value="myBase"></dbname>
+    <version value="3"></version>
+    <list>
+        <mapping class="com.example.denlu.bean.data"></mapping>
+        <mapping class="com.example.denlu.bean.user"></mapping>
+    </list>
+</litepal>

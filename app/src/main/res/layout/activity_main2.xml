@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/try2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:background="#99000000">
+            <EditText
+                android:id="@+id/zhanghao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="#9F9FA0"
+                android:textColorHint="#9F9FA0"
+                android:hint="用户名（自定义）"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#83738F"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"></View>
+
+            <EditText
+                android:id="@+id/mima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:hint="密码（自定义）"
+                android:inputType="textPassword"
+                android:textColor="#9F9FA0"
+                android:textColorHint="#9F9FA0"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="#83738F"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"></View>
+
+            <EditText
+                android:id="@+id/queren"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:hint="确认密码"
+                android:inputType="textPassword"
+                android:textColor="#9F9FA0"
+                android:textColorHint="#9F9FA0"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:paddingTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#9F9FA0"
+                android:layout_weight="1"
+                android:background="#99000000"
+                android:text="确定"
+                />
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:background="#99000000"
+                android:textColor="#9F9FA0"
+                android:layout_weight="1"
+                android:text="返回"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

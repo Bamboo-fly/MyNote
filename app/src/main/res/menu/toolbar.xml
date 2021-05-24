@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+    <item
+        android:id="@+id/fanhui"
+        android:icon="@drawable/quit"
+        android:title="Backup"
+        app:showAsAction="always"/>
+    <!--icon指定了使用的图片，title指定了按钮的文字，showasasaction确定了显示位置-->
+
+</menu>

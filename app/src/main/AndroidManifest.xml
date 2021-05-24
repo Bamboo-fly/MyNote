@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.denlu">
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        tools:replace="android:label"
+        android:allowBackup="true"
+        android:icon="@drawable/shanshui"
+        android:label="好运便签"
+        android:roundIcon="@drawable/shanshui"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Denlu">
+
+        <!--
+        系统会默认显示actionbar,是根据上一行的指定主题显示出来的
+        -->
+        <activity android:name=".activity.listview"></activity>
+        <activity android:name=".activity.dispaly"></activity>
+        <activity android:name=".activity.MainActivity2"></activity>
+        <activity android:name=".activity.information"></activity>
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
